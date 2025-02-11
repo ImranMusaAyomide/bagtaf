@@ -215,7 +215,7 @@ hr {
     width: 600px;
 }
 .work-text h1 {
-    font-size: 32px;
+    font-size: 32px wb3\;
 }
 .green {
     color: green;
@@ -228,4 +228,96 @@ hr {
     border-radius: 4px;
     margin-top: 10px;
     color: #fff;
+}
+.text-container {
+    text-align: center;
+}
+.text-container hr {
+    margin: auto;
+    align-items: center;
+}
+.text-container p {
+    color: #009367;
+    margin-top: 10px;
+    font-size: 24px;
+}
+.text-container h1 {
+    margin: auto;
+    line-height: 2;
+    width: 400px;
+}
+.projectInfo {
+    width: 90%;
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.projectInfo  div{
+    padding: 10px;
+}
+.projectInfo hr{
+    margin-bottom: 10px;
+}
+.flex-own> div {
+    display: flex;
+    justify-content: space-between;
+}
+.projectInfo p {
+    line-height: 1.2;
+}
+.part1 {
+    width: 90%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;   
+    /* background-color: #009367; */
+}
+article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+.logoWithMis div {
+    padding-left: 50px;
+}
+.pureText p{
+    color: #009367;
+    width: 350px;
+}
+
+.pureText h1{
+    color: #009367;
+}
+.secondFoot {
+    display: flex;
+    flex-direction: row;
+}
+.secondFoot div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.secondFoot a {
+    line-height: 1.2;
+    text-decoration: none;
+    color: #009367;
+}
+footer.flex-work {
+    width: 95%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.secondFoot h1 {
+    font-size: 24px;
 }
