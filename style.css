@@ -29,6 +29,7 @@
     width: 30px;
 }
 .hero-section {
+    /* border: 2px solid red; */
     width: 100%;
     height: 619px;
     background-image: url(img/image\ 1.png);
@@ -62,7 +63,7 @@
 }
 .cardOwner {
     width: 472px;
-    height: 410px;
+    padding-bottom: 40px;    
     background-color: #fff;    
     border-radius: 4px;
 }
@@ -127,14 +128,20 @@
 }
 .smallMid {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: auto;
-    margin: auto;
-    width: 950px;
-    height: 70px;
+    width: 50%;
+    /* height: 15vh; */
     background-color: #fff;
     border-radius: 7px;
+    /* position: absolute; */
+    /* top: 95%; */
+    margin-top: -50px;
+    box-shadow: 0 0 10px;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
 }
 hr {
     width: 50%;
@@ -156,10 +163,28 @@ hr {
     align-items: center;
 }
 .forBlue {
-    width: 142px;
-    height: 70px;
+    margin: 10px;
+    width: 172px;
+    height: 90px;
     background-color: #2614C9;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
 }
+.forBlue h1{
+    color: #fff;
+    font-size: 14px;
+}
+.forBlue a {
+    text-decoration: none;
+    color: #fff;
+    width: 150px;
+}
+.forBlue div a {
+    display: flex;
+    justify-content: space-between;
+}
+
 .img-part{
     background-image: url(img/illustration.png);
     background-size: cover;
@@ -194,7 +219,7 @@ hr {
 }
 .flex1 {
     width: 100%;
-    height: 120vh;
+    height: 80vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -231,6 +256,7 @@ hr {
 }
 .text-container {
     text-align: center;
+    padding-top: 80px;
 }
 .text-container hr {
     margin: auto;
@@ -248,7 +274,7 @@ hr {
 }
 .projectInfo {
     width: 90%;
-    height: 120vh;
+    /* height: 120vh; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -320,4 +346,102 @@ footer.flex-work {
 }
 .secondFoot h1 {
     font-size: 24px;
+}
+#armburger {
+    display: none;
+}
+@media screen and (max-width: 600px) {	
+    .header-container {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: auto;
+    }
+    .text-CTA {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text-CTA h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    .text-CTA p{
+        font-size: 16px;
+        text-align: center;
+    }
+    .small {
+        width: 500px;
+    }
+    .links a, .btn1 {
+        display: none;
+    }
+    .social-header {
+        display: none;
+    }
+    #armburger {
+        display: block;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+     .flex {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .cardOwner h1 {
+        font-size: 24px;
+    }
+ .smallMid {
+    display: flex;
+    flex-direction: column;   
+    justify-content: center; 
+    align-items: center;
+    margin-top: 80px;
+}
+.Text-Main {
+    display: flex;
+    flex-direction: column;
+} 
+.Text-Main h1 {
+    width: 600px;
+    margin-left:50px;
+}
+.Text-Main p {
+    margin-left: 50px;
+}
+.Text-Main hr {
+    margin-left: 50px;
+}
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
+.flex1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+.img-part2 {
+    margin-top: 20px;
+}
+.projectInfo {
+    display: flex;
+    flex-direction: column;
+}
+section.team-pic {
+    margin-top: 300px;
+}
+.part1 {
+    display: flex;
+    flex-direction: column;
+}
+article, footer {
+    margin-top: 700px;
+}
+.flex-work {
+    display: flex;
+    flex-direction: column;
+}
+
 }
